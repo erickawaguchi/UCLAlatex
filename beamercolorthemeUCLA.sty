@@ -1,0 +1,39 @@
+\mode<presentation>
+
+\definecolor{uclablue}{HTML}{3284BF} % Definition of blue color
+\definecolor{uclagold}{HTML}{FFE800} % Definition of gold color
+
+\setbeamercolor{structure}{fg = uclablue, bg = uclagold}
+%\setbeamercolor{local structure}{parent=structure}
+
+% Main title-bar colors
+\setbeamercolor{palette primary}{fg = black, bg = uclagold} % frame title
+\setbeamercolor{palette secondary}{fg = black, bg = uclagold}
+\setbeamercolor{palette tertiary}{fg=white, bg=uclablue}
+\setbeamercolor{palette quaternary}{fg=white,bg=uclablue}
+
+\setbeamercolor{titlelike}{parent=palette tertiary}
+
+% Inner block colors
+\setbeamercolor{block title}{fg = uclablue, bg = uclagold}
+\setbeamercolor{block title alerted}{use=alerted text, fg=uclablue, bg=alerted text.fg!75!bg}
+\setbeamercolor{block title example}{use=example text, fg=uclablue, bg=example text.fg!75!bg}
+
+\setbeamercolor{block body}{parent=normal text,use=block title,bg=block title.bg!25!bg}
+\setbeamercolor{block body alerted}{parent=normal text,use=block title alerted,bg=block title alerted.bg!25!bg}
+\setbeamercolor{block body example}{parent=normal text,use=block title example,bg=block title example.bg!25!bg}
+
+%\setbeamercolor{sidebar}{bg=uigold!70}
+%  
+%\setbeamercolor{palette sidebar primary}{fg=black}
+%\setbeamercolor{palette sidebar secondary}{fg=uigold!75}
+%\setbeamercolor{palette sidebar tertiary}{fg=uigold!75}
+%\setbeamercolor{palette sidebar quaternary}{fg=uigold}
+
+\setbeamercolor{item}{fg=uclablue}
+
+\setbeamercolor{description item}{fg=blue}
+
+
+
+\mode<all>
